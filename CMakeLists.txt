@@ -1,4 +1,8 @@
 
+include_directories(
+    ${LUA_SOURCE_DIR}
+    )
+
 set(LUA_FILE_SYSTEM_SOURCES 
     src/lfs.c
 )
